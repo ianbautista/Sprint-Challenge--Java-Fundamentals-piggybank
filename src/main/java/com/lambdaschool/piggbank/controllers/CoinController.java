@@ -83,6 +83,7 @@ public class CoinController
         }
 
         // force result output
+        totalValue = 0.0;
         for (Coin c : allCoinsList)
         {
             double coinValue = c.getQuantity() * c.getValue();
